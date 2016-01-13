@@ -82,6 +82,12 @@ a:hover {
   flex-grow: 1;
   align-self: stretch;
   flex-basis: 0;
+  
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .feature-description {
@@ -89,4 +95,9 @@ a:hover {
   flex-grow: 1;
   align-self: stretch;
   flex-basis: 0; 
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
