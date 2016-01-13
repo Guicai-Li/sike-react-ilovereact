@@ -1,4 +1,4 @@
-/*@import "../node_modules/normalize.css/normalize.css";*/
+@import "../node_modules/normalize.css/normalize.css";
 
 body, div, span {
   border: 0 solid black;
@@ -66,7 +66,7 @@ a:hover {
     text-decoration: none;
 }
 
-.section1 {
+.section {
   background-color: rgba(255,0,0,0.3);
   border: 2px solid #FFF;
   height: 100%;
@@ -81,17 +81,12 @@ a:hover {
   background-color: rgba(255,0,0,0.3);
   flex-grow: 1;
   align-self: stretch;
+  flex-basis: 0;
 }
 
 .feature-description {
   background-color: rgba(0,255,0,0.3);
   flex-grow: 1;
-  align-self: stretch; 
-}
-
-.section {
-  background-color: rgba(255,0,0,0.3);
-  border: 2px solid #FFF;
-  height: 100%;
-  text-align: center;
+  align-self: stretch;
+  flex-basis: 0; 
 }
