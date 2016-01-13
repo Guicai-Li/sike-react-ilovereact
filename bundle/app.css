@@ -471,7 +471,22 @@ a:hover {
 .header{
     height:100vh;
     text-align: center;
+    position: relative;
 }
+
+.header {
+  position: relative;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay{
+    height: 100%;
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0),rgba(31,30,52,1));
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(31,30,52,1));
+}
+
 .header img{
     margin-top: 7.9%;
     height: 34.5%;
@@ -500,8 +515,6 @@ a:hover {
 }
 
 .section {
-  background-color: rgba(255,0,0,0.3);
-  border: 2px solid #FFF;
   height: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -539,7 +552,6 @@ a:hover {
 }
 
 .iphone-demo {
-  background-color: rgba(255,0,0,0.3);
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
@@ -575,7 +587,6 @@ a:hover {
 }
 
 .feature-description {
-  background-color: rgba(0,255,0,0.3);
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
@@ -607,8 +618,6 @@ a:hover {
 }
 
 .footer{
-  background-color: rgba(255,0,0,0.3);
-  border: 2px solid #FFF;
   height: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -637,4 +646,26 @@ a:hover {
     bottom: -130px;
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg);
+}
+
+#slider-control {
+  position: fixed;
+  right: 30px;
+  top: 40%;
+  padding: 3px;
+}
+
+#slider-control a {
+  padding: 3px;
+}
+
+#slider-control .dot {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+}
+
+#slider-control .active .dot {
+  background-color: #fff;
 }
