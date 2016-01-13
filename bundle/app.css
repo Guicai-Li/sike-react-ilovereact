@@ -523,6 +523,21 @@ a:hover {
           justify-content: center;
 }
 
+.iphoneFrame{
+    width: 300px;
+    height: 630px;
+}
+
+.wrap{
+    position: relative;
+}
+
+.pic{
+    position: absolute;
+    left: 20px;
+    top: 90px;
+}
+
 .iphone-demo {
   background-color: rgba(255,0,0,0.3);
   -webkit-box-flex: 1;
