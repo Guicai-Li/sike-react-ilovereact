@@ -116,3 +116,22 @@ a:hover {
   align-items: center;
   justify-content: center;
 }
+
+.footer{
+  background-color: rgba(255,0,0,0.3);
+  border: 2px solid #FFF;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.footer .wrap{
+    position: absolute;
+    right: -90px;
+    bottom: -130px;
+    transform: rotate(-45deg);
+}
